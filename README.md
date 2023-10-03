@@ -1,4 +1,16 @@
 # hotel-management-app
-First personal vue/node application
+First personal application made using Node.js and Vue.js
+
+Landing page
 
 ![homePageBeforeLogin](https://github.com/florin06098/hotel-management-app/assets/146831453/a82b0c12-4329-407b-afda-e007dcd8e493)
+
+
+Personal Bookings
+
+![personalBookings](https://github.com/florin06098/hotel-management-app/assets/146831453/4ac24534-220b-465a-b37a-fc227e283326)
+
+
+Book a room
+
+![bookARoom](https://github.com/florin06098/hotel-management-app/assets/146831453/a8364cf8-6c1d-4adc-8a01-31f64fa9b47c)
