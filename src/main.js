@@ -95,18 +95,15 @@ router.beforeEach(async (to, from, next) => {
 
     if (!isTokenValid && to.name !== "Login" && to.name !== "Signup" && to.name !== "Home") {
         console.log("Suntem in to.name nu e LOGIN && to.name nu e SIGNUP SI NICI HOME, unde tokenu e invalid: " + to.name);
-        // Daca token-ul nu este valid -> Redirect pe login
         next({ path: '/login', replace: true });
         return;
     } if (isTokenValid && to.name === "Login") {
         console.log("Suntem in to.name e LOGIN && unde tokenu e valid: " + to.name);
-        // If a token exists and the user is trying to navigate to the login page, redirect to another page
         next({ path: '/', replace: true });
         window.history.replaceState({}, '', '/');
         return;
     } else if (isTokenValid && to.name === "Signup") {
         console.log("Suntem in to.name e Signup && unde tokenu e valid: " + to.name);
-        // If a token exists and the user is trying to navigate to the login page, redirect to another page
         next({ path: '/', replace: true });
         window.history.replaceState({}, '', '/');
         return;
