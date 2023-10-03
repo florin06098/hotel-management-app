@@ -1,5 +1,6 @@
 # hotel-management-app
 First personal application made using Node.js and Vue.js
+This is just a small and fast developped application, some details were not so important and were not implemented. The application was created just to get an idea of how the technologies work.
 
 Landing page
 
@@ -7,6 +8,7 @@ Landing page
 
 
 Personal Bookings
+(The first reservation does not display the 'Review' button because it was already reviewed)
 
 ![personalBookings](https://github.com/florin06098/hotel-management-app/assets/146831453/4ac24534-220b-465a-b37a-fc227e283326)
 
