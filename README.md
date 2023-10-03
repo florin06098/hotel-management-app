@@ -1,6 +1,6 @@
 # hotel-management-app
 First personal application made using Node.js and Vue.js
-This is just a small and fast developped application, some details were not so important and were not implemented. The application was created just to get an idea of how the technologies work.
+This is just a small and fast developped application that was created to get an idea of how the techologies work. Some details were not so important and were not implemented.
 
 Landing page
 
