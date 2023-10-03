@@ -8,7 +8,7 @@ Landing page
 
 
 Personal Bookings
-(The first reservation does not display the 'Review' button because it was already reviewed)
+(The first reservation does not display the 'Review' button because the reservation was already reviewed)
 
 ![personalBookings](https://github.com/florin06098/hotel-management-app/assets/146831453/4ac24534-220b-465a-b37a-fc227e283326)
 
